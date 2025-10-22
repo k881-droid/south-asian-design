@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pixelbasel';
+    src: url('Pixelbasel.woff2') format('woff2'),
+        url('Pixelbasel.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

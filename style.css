@@ -1,9 +1,37 @@
+@font-face {
+    font-family: 'Pixelbasel';
+    src: url('fonts/Pixelbasel.woff2') format('woff2'),
+        url('fonts/Pixelbasel.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 html { 
-    font-size: 100%
+    font-size: 100;
+    line-height: 100%;
 }
 
 body {
 	font-family: sans-serif;
+    font-size: 2rem;
 	padding: 1rem; /* An “inset” on the whole page. */
-    line-height: 20rem
+    line-height: 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    padding: 2rem;
+    line-height: 8rem;
+    font-family: "Pixelbasel", sans-serif;
+}
+
+main{
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.list{
+    padding: 2rem;
+    line-height: 3rem;
 }
