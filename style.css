@@ -1,4 +1,9 @@
+html { 
+    font-size: 100%
+}
+
 body {
 	font-family: sans-serif;
 	padding: 1rem; /* An “inset” on the whole page. */
+    line-height: 1rem
 }
