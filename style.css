@@ -15,23 +15,37 @@ html {
 body {
 	font-family: sans-serif;
     font-size: 2rem;
-	padding: 1rem; /* An “inset” on the whole page. */
-    line-height: 2rem;
+    padding: 1rem; /* An “inset” on the whole page. */
+    margin-inline-end: 20rem;
 }
 
 h1{
     font-size: 5rem;
     padding: 2rem;
-    line-height: 8rem;
-    font-family: "Pixelbasel", sans-serif;
+    line-height: 4rem;
+    font-family: "pixelbasel", sans-serif;
 }
 
 main{
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 2.3rem;
+    font-family:"Sofia Sans Semi Condensed", sans-serif;
 }
 
 .list{
-    padding: 2rem;
+    padding: 1rem;
     line-height: 3rem;
+    font-size: 2rem;
+    font-family: "handjet", sans-serif;
 }
+
+h2{
+    padding: 1rem;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    line-height: 2rem;
+    padding: 1rem;
+}   
